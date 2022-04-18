@@ -10,6 +10,8 @@ then
 	echo "To download to ~/shared/Music/ type 1"
 	echo "To download to ~/shared/Podcasts/ type 2"
 	
+	read option
+
 	if [ "$option" -eq "1" ]
 	then
 		download_dir = "~/storage/shared/Music/"
